@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+body {
+    background-color: #fff !important;
+}
+
+textarea:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+.uneditable-input:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.form-card {
+    box-shadow: 0 0 10px 0 #dcdfe4;
+}
+
+.header {
+    box-shadow: 0 1px 10px 0 #dcdfe4;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #d0d8e7;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #d0d8e7;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #d0d8e7;
+}
+
+.router-link-exact-active {
+    font-weight: 700 !important;
+}
+
+.navbar-brand {
+    font-weight: 900 !important;
+}
